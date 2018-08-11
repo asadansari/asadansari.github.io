@@ -8,3 +8,7 @@ nav {
   width: 800px;
   margin: auto;
 }
+
+nav li {
+  list-style-type: none;
+}
