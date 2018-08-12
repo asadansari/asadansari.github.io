@@ -43,10 +43,10 @@ nav li {
   float: left;
   text-shadow: 2px;
   background-color: #008793;
-  color: whitesmoke;
+  color: #f5f5f5;
   opacity: 0.9;
   font-family: 'Philosopher', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   text-transform: uppercase;
   border-radius: 50px 1px;
   transition: all 0.50s;
@@ -61,9 +61,9 @@ nav li:nth-child(2) {
 }
 
 nav li:hover {
-/*   color: gray; */
+  color: #f5f5f5;
   background-color: #004d7a;
   border-radius: 1px 50px;
-  text-decoration: underline overline;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: all 0.50s;
 }
