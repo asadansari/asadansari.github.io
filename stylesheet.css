@@ -5,9 +5,9 @@ html {
   height: 100%;
   background-repeat: no-repeat;
 /*   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
-/*   background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-} */
+/*   background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
 
 body {
   padding: 0px;
