@@ -4,9 +4,9 @@ html {
   margin: 0px;
   height: 100%;
   background-repeat: no-repeat;
-/*   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
-/*   background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  /*   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
+  /*   background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background-image: linear-gradient(to top right, #051937, #004D7A, #008793, #00BF72, #A8EB12);
 }
 
 body {
@@ -19,23 +19,24 @@ nav {
   padding: 0px;
   border: 0px;
   margin: auto;
-  width: 800px;
-  height: 50px;
+  width: 600px;
+  height: 80px;
 }
 
 nav ul {
   padding: 0px;
   border: 0px;
-  margin: 100px auto auto auto;
-  width: 620px;
-  height: 50px;
+  margin: auto;
+  width: 600px;
+  height: 80px;
 }
 
 nav li {
   border: 0px;
-  line-height: 50px;
+  line-height: 75px;
   padding: 0px;
   border: 0px;
+  border-bottom: 5px solid #008793;
   margin: auto;
   list-style-type: none;
   width: 200px;
@@ -43,27 +44,30 @@ nav li {
   float: left;
   text-shadow: 2px;
   background-color: #008793;
-  color: #f5f5f5;
+  color: #F5F5F5;
   opacity: 0.9;
   font-family: 'Philosopher', sans-serif;
   font-size: 28px;
   text-transform: uppercase;
-  border-radius: 50px 1px;
+  /*border-radius: 50px 1px;*/
   transition: all 0.50s;
+  height: 75px;
 }
 
-nav li:last-child {
-   margin-left: 10px;
-}
+/*NAV LI:last-child
+{
+	margin-left: 10px;
+}*/
 
-nav li:nth-child(2) {
-  margin-left: 10px;
-}
+/*NAV LI:nth-child(2)
+{
+	margin-left: 10px;
+}*/
 
 nav li:hover {
-  color: #f5f5f5;
-  background-color: #004d7a;
-  border-radius: 1px 50px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: #F5F5F5;
+  background-color: #004D7A;
+  /*border-radius: 1px 50px;*/
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.50s;
 }
